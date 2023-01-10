@@ -1,99 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="estilo.css" type="text/css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./css/style-home.css">
+    <title>Teste</title>
 </head>
 
 <body>
-    <header> 
+    <header>
         <nav>
-            <!--Talvez seja necessário modificar o "src" para ver a imagem!!!-->
-            <img src="/figures/final-logo.png" alt="logo" class="logo">
+            
+            <img src="./figures/final-logo.png" alt="logo" class="logo">
             <ul>
-                <li> <a href="home.html" class="link">Home</a></li>
-                <li> <a href="#" class="link">Login</a></li>
+                <li> <a href="index.html" class="link">Home</a></li>
+                <li> <a href="login.html" class="link">Login</a></li>
                 <li> <a href="cadastro.html" class="link">Cadastro</a></li>
             </ul>
         </nav>
     </header>
+    <div class="titulo">
+        <h1>
+            GREEN CASTLE
+        </h1>
+    </div>
     <main>
-        <div class="login-left">
-            <h1>Green Castle &copy; </h1>
-            <!--Talvez seja necessário modificar o "src" para ver a imagem!!!-->
-            <img src="figures/waste-management-animate.svg" alt="animação de reciclagem">
-            <h2>
-                BEM-VINDO
-                DE VOLTA A MAIOR COMUNIDADE DE EDUCAÇÃO SUSTENTÁVEL DO MUNDO
-            </h2>
-        </div>
+        <section class="sect-1">
+            <div class="card-1">
+                <h2>Procura por um meio de fazer seu negócio cada dia mais sustentável?</h2>
+                <p>Nós temos um compromisso com o planeta.</p>
+                <p>
+                    2022 lutamos pelo propósito de tornar o mundo um lugar passível de vida mesmo depois de bilhões de
+                    anos
+                    da criação desse site. É por meio dele e de algum soutros veículos que vamos entrar em contato com
+                    todos
+                    os polos desse vasto globo responsável por nos acomodar.
+                </p>
 
-
-        <div class="login-right">
-            <div class="login-card">
-                <h2>LOGIN</h2>
-                <form>
-                    <div class="textfield">
-                        <label for="login">Email</label>
-                        <input type="email" autocomplete="off" size="60" required="required" class="input"
-                            placeholder="abc@email.com" name="login">
-                    </div>
-
-                    <div class="textfield">
-                        <label for="senha">Senha</label>
-                        <input type="password" autocomplete="off" size="60" required="required" class="input"
-                            placeholder="Senha" name="senha">
-                    </div>
-
-                    <button class="btn">
-                        LOGIN
-                    </button>
-
-                    <a href="cadastro.html" alt="cadastro" class="cadastro-btn">
-                        Não está cadastrado ainda?
-                    </a>
-
-                </form>
+                <button type="submit" class="btn">Entre para nosso time</button>
             </div>
-        </div>
+        </section>
+        <section class="sect-1">
+            <div class="card-1">
+                <h2>Porque não aprender algo novo e sustentável todo dia?</h2>
+                <p>Venha conhecer nossa sede!</p>
+                <p>
+                    Em 2023 criamos nossa sede no Bairro X, rua Y, N:0. Lá, qualquer pessoa que queira entrar em contato
+                    com
+                    nosso mundo pode aprender sobre economia, sociabililidade e práticas que vão tornar seus lares mais
+                    belos e fazer sobrar um dinheiro extra no fim do mês!
+                </p>
+
+                <button type="submit" class="btn">Saiba mais</button>
+            </div>
+        </section>
     </main>
+
     <footer>
         <div class="col-1">
             <h3>PÁGINAS</h3>
             <ul>
-
                 <li><a href="">Home</a></li>
                 <li><a href="">Login</a></li>
                 <li><a href="">Cadastro</a></li>
                 <li><a href="">Nossos Parceiros</a></li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-1">
             <h3>
                 DESCONTOS
             </h3>
             <form class="desconto">
                 <input type="email" placeholder="Insira aqui seu Email" required="required">
-
                 <button type="submit">INSCREVA-SE</button>
             </form>
         </div>
-        <div class="col-3">
+        <div class="col-1">
             <h3>SUGESTÕES</h3>
-            <form class="sugestao">
-                <input type="text" placeholder="Assunto" required="required" class="assunto">
+            <form class="desconto">
                 <input type="text" placeholder="Mensagem" required="required" class="mensagem">
-
-
                 <button type="submit">ENVIAR</button>
-
             </form>
 
         </div>
     </footer>
-
 </body>
 
 </html>

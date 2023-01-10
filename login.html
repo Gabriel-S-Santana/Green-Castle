@@ -1,67 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
-    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/estilo.css " type="text/css">
+    <title>Login</title>
 </head>
-<body>
 
-    <header>
+<body>
+    <header> 
         <nav>
-            <!--Talvez seja necessário modificar o "src" para ver a imagem!!!-->
+           
             <img src="./figures/final-logo.png" alt="logo" class="logo">
-            <ul> 
+            <ul>
                 <li> <a href="index.html" class="link">Home</a></li>
-                <li> <a href="login.html" class="link">Login</a></li>
-                <li> <a href="#" class="link">Cadastro</a></li>
+                <li> <a href="#" class="link">Login</a></li>
+                <li> <a href="cadastro.html" class="link">Cadastro</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <div class="cadastro-left">
+        <div class="login-left">
             <h1>Green Castle &copy; </h1>
-            <!--Talvez seja necessário modificar o "src" para ver a imagem!!!-->
-            <img class="img-cadastro" src="./figures/next-steps-animate.svg" alt="animação de um garoto subindo uma escada">
+            <img src="./figures/waste-management-animate.svg" alt="animação de reciclagem">
             <h2>
-                PRIMEIRA VEZ POR AQUI? <br> PISE FUNDO E SE TORNE PARTE DA MUDANÇA
+                BEM-VINDO
+                DE VOLTA A MAIOR COMUNIDADE DE EDUCAÇÃO SUSTENTÁVEL DO MUNDO
             </h2>
         </div>
-        <div class="cadastro-right">
-            <div class="cadastro-card">
-                <h2>CADASTRO</h2>
+
+
+        <div class="login-right">
+            <div class="login-card">
+                <h2>LOGIN</h2>
                 <form>
                     <div class="textfield">
                         <label for="login">Email</label>
                         <input type="email" autocomplete="off" size="60" required="required" class="input"
                             placeholder="abc@email.com" name="login">
                     </div>
-                    <div class="textfield">
-                        <label for="senha">Telefone</label>
-                        <input type="password" autocomplete="off" size="60" required="required" class="input"
-                            placeholder="(00)123456789" name="senha">
-                    </div>
+
                     <div class="textfield">
                         <label for="senha">Senha</label>
                         <input type="password" autocomplete="off" size="60" required="required" class="input"
                             placeholder="Senha" name="senha">
                     </div>
-                    <div class="textfield">
-                        <label for="senha">Repita sua senha</label>
-                        <input type="password" autocomplete="off" size="60" required="required" class="input"
-                            placeholder="Repita sua senha" name="senha">
-                    </div>
+
                     <button class="btn">
-                        CADASTRAR
+                        LOGIN
                     </button>
+
+                    <a href="cadastro.html" alt="cadastro" class="cadastro-btn">
+                        Não está cadastrado ainda?
                     </a>
 
                 </form>
             </div>
         </div>
     </main>
-
     <footer>
         <div class="col-1">
             <h3>PÁGINAS</h3>
@@ -90,7 +86,6 @@
 
         </div>
     </footer>
-
 </body>
 
 </html>
